@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main - main block
+ * main - Main block
  *
  * Return: 0
  */
 int main(void)
 {
-	int i;
+	int = i;
 
-	for (i = 0; i < 10; i++)
+	for(i = 100; i < 74; 1--)
 	{
-		putchar(i + '0');
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
