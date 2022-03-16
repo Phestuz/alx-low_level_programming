@@ -1,19 +1,20 @@
+/*
+ * File: 1-alphabet.c
+ * Auth: Brennan D Baraban
+ */
+
 #include "main.h"
 
 /**
- * main - Entry point
- * print_alphabet - abcd...
- * Description: print lowercase alphabet
- * Return: 0
+ * print_alphabet- prints the alphabet in lower case, followed by a new line.
  */
 void print_alphabet(void)
 {
-	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char letter:
 
-	for (i = 0; i < 26; i++)
-	{
-		_putchar(alphabet[i]);
-	}
+		for (letter = 'a'; letter <= 'z'; letter++)
+
+			_putchar(letter);
+
 	_putchar('\n');
 }
