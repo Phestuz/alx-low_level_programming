@@ -3,18 +3,16 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Succes)
  */
 int main(void)
 {
-	int str [] = {72, 111, 108, 98, 101, 114, 116, 111, 110}; 
-	int count, sz;
-
-	sz = sizeof(str) / sizeof(int);
-	for (count = 0; count < sz; count++)
+	char text[8] = "_putchar";
+	int i;
+	for (i = 0; i < 8; i++)
 	{
-		 _putchar(str[count]);
+		_putchar(text[i]);
 	}
-	 _putchar('\n');
-		 return (0);
+	_putchar('\n');
+	return (0);
 }
