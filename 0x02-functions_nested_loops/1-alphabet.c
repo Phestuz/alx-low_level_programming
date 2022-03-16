@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point
- *
+ * print_alphabet - abcd...
+ * Description: print lowercase alphabet
  * Return: 0
  */
 void print_alphabet(void)
