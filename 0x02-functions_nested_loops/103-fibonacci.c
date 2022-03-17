@@ -2,13 +2,14 @@
 
 /**
  * main - Entry point
- * Description: Prints the add of the even-valued fibonacci numbers. 
+ * Description: Prints the add of the even-valued fibonacci numbers.
+ *
  * Return: 0
  */
 int main(void)
 {
 	long int n1, n2, fn, afn;
-
+	
 	n1 = 1;
 	n2 = 2;
 	fn = afn = 0;
