@@ -3,7 +3,6 @@
 /**
  * main - Entry point
  * Description: Print the add of the fibonacci numbers
- *
  * Return: Always 0.
  */
 int main(void)
