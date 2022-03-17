@@ -2,8 +2,7 @@
 
 /**
  * main - Entry point
- * Description: Prints the add of the even-valued fibonacci numbers.
- * 
+ * Description: Prints the add of the even-valued fibonacci numbers. 
  * Return: 0
  */
 int main(void)
