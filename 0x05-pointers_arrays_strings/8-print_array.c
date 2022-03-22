@@ -2,10 +2,9 @@
 #include <stdio.h>
 
 /**
- * print_array - Print an inputed number of elements of an array of integers
+ * print_array - prints an input number of element of an array of integers.
  * @a: The array of integers.
- * @n: the number of elements to be printed.
- * Return: void 
+ * @n: the number of elemnts to be printed
  */
 void print_array(int *a, int n)
 {
