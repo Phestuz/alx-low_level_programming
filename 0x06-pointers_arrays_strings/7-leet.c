@@ -8,20 +8,24 @@
  */
 char *leet(char *str)
 {
-	int indx1 = 0, indx2;
-	char leet[8] = {'0', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	int stringCount, leetCount;
+	char leetLetters[] = "aAeEoOtTlL";
+	char leetNums[] = "4433007711";
 
-	while (str[indx1])
+	strringCount = 0;
+	while (str[stringCount] != '\0')
+		/* check whether leetLetter is found */
 	{
-		for (indx2 = 0; indx2 <= 7; indx2++)
+		leetCount = 0;
+		while (leetCount < 10)
 		{
-			if (str[indx1] == leet[indx2] ||
-					str[indx1] - 32 == leet[indx2])
-				str[indx1] = indx2 + '0';
+			if (leetLetters[leetCount] == str[stringCount])
+			{
+				str[stringCount] = leetNums[leetCount];
+			}
+			leetCount++;
 		}
-
-		indx1++;
+		stringCount++;
 	}
-
 	return (str);
 }
